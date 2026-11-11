@@ -218,3 +218,11 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Dados de terceiros - não versionar
+data/raw/*
+!data/raw/.gitkeep
+
+# Dados processados - não versionar
+data/processed/*
+!data/processed/.gitkeep
